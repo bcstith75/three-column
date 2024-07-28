@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tailwind Starter code</title>
+  <title>Three Column Autos</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,10 +13,12 @@
 </head>
 <body class="bg-veryLightGray">
 
-  <main class="flex flex-col items-center justify-center text-3xl lg:h-[900px] lg:w-[1200px] m-auto lg:flex-row">
+  <main class="flex items-center justify-center my-6 lg:my-32">
+  <div class="flex flex-col mx-4 md:mx-16   md:space-y-0  md:flex-row md:my-0">
+
 
     <!--Box 1-->
-    <div class="rounded-l-md bg-brightOrange lg:w-1/3 p-10 flex flex-col space-y-12">
+    <div class=" bg-brightOrange p-10 flex flex-col space-y-12 lg:rounded-l-md">
       <img src="images/icon-sedans.svg" alt="" class="w-20">
 
       <h1 class="uppercase text-5xl text-white font-shoulders font-bold">Sedans</h1>
@@ -28,7 +30,7 @@
     </div>
 
     <!--Box 2-->
-    <div class=" bg-darkCyan lg:w-1/3 p-10 flex flex-col space-y-12">
+    <div class=" bg-darkCyan  p-10 flex flex-col space-y-12">
       <img src="images/icon-suvs.svg" alt="" class="w-20">
 
       <h1 class="uppercase text-5xl text-white font-shoulders font-bold">SUVS</h1>
@@ -39,7 +41,7 @@
     </div>
 
      <!--Box 3-->
-     <div class="rounded-r-md bg-veryDarkCyan lg:w-1/3 p-10 flex flex-col space-y-12">
+     <div class="lg:rounded-r-md bg-veryDarkCyan p-10 flex flex-col space-y-12">
       <img src="images/icon-luxury.svg" alt="" class="w-20">
 
       <h1 class="uppercase text-5xl text-white font-shoulders font-bold">Luxury</h1>
@@ -48,6 +50,8 @@
 
 
       <button class="text-veryDarkCyan bg-white font-bold text-sm py-3 px-6 rounded-full w-[150px]">Learn More</button>
+    </div>
+
     </div>
 
   </main>
